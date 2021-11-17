@@ -148,3 +148,105 @@ header {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Belleza);
+
+#container {
+	width: 320px;
+  height: 240px;
+  background-color: white;
+  text-align: center;
+  h1 {
+  	font-family: "coquette";
+    color: white;
+    text-shadow: 0px -2px 0px #000;
+  }
+}
+
+#popup {
+	position: relative;
+	bottom: 1000px;
+	left: 13.8%;
+	width: 208px;
+	height: 80px;
+	padding: 10px;
+	background-color: #fd4703;
+  background-image: linear-gradient(top, #f97d4f 0%,#fc5d23 50%,#fd4703 51%,#fd4703 100%);
+	border: 2px solid #00234C;
+	-webkit-border-radius: 5px;
+	z-index: 9999;
+	text-align: center;
+	-webkit-box-shadow: 10px 10px 30px #333, -10px -10px 30px #333, -10px 10px 30px #333, 10px -10px 30px #333;
+  
+  h4 {
+    color: white;
+    text-shadow: 0px -2px 0px #00234C;
+    font-size: 18px;
+    font-family: Belleza;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  p {
+    color: white;
+    text-shadow: 0px -2px 0px #00234C;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  &::after {
+    position: absolute;
+    content: '';
+    height: 0px;
+    width: 0px;
+    left: 43%;
+    bottom: -20px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #FD4703;
+    z-index: 9999;
+  }
+}
+
+.popup-close-icon {
+	position: absolute;
+	width: 0px;
+	right: 20px;
+	top: 0px;
+	font-size: 24px;
+  font-weight: bolder;
+	color: white;
+	text-shadow: 0px -1px 1px #00234C;
+	cursor: pointer;
+}
+
+.bottom-bar {
+	position: absolute;
+  bottom: 8%;
+  left: 8px;
+}
+  
+  
+  
+  
