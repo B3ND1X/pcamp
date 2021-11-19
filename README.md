@@ -11,7 +11,7 @@ Permanent Campaigns is an app to keep track of the latest in political science! 
 
 Developed by Liam Bendix, co-develeoped by William Bendix (Dept. of Economics & Political Science, Keene State College)
 
-*Please note: Permanent Campaigns has been removed from the App Store. See below for alternative installation methods:
+*Please note: Permanent Campaigns has been removed from the App Store. See below for alternative installation methods:*
 
 ## Installation
 
